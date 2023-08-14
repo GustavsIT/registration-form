@@ -1,0 +1,70 @@
+body {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(173, 46, 116);
+}
+
+.main-heading {
+  color: red;
+  text-decoration: underline;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.main-form {
+  border: 3px solid green;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(192, 214, 146);
+  padding: 30px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.firstname,
+.lastname {
+  flex: 1;
+  margin:5px 5px; 
+}
+
+.firstname input,
+.lastname input {
+  width: 50%;
+}
+
+.email-pw-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.email,
+.password{
+  flex: 1;
+  margin:5px 5px; 
+}
+
+.email input,
+.password input{
+  width: 50%;
+}
+
+.gender,
+.country,
+.termsbox{
+  margin-left: 125px;
+}
+
+.button-container{
+  text-align: center;
+}
